@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLX</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image" href="images/fav-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- HEADER START-->
+  <div class="header">
+    
+    <div class="logo-section mt-3">
+      <a><img src="images/logo.png" alt="logo" height="40px" class="logo"></a>
+      <a><img src="images/car.png" alt="car-icon" style="width: 20px;"><span>Motors</span></a>
+      <a><img src="images/property-icon.png"  alt="property-icon"><span>Property</span></a>
+    </div>
+    <div class="input-section mt-3 mx-3">
+      <div class="dropdown location-dropdown">
+        <input type="text" placeholder="Location or Compound">
+        <img src="images/icon.png" alt="location-icon" height="25px" class="location-dropdown-img">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        </button>
+        <ul class="dropdown-menu">
+          <li><img src="images/icon.png" alt="current-location-icon" height="25px"><a
+              class="dropdown-item" href="#" style="color: blue;">Use current location</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><img src="images/icon.png" alt="location-icon" height="25px"><a class="dropdown-item"
+              href="#">See ads in all
+              Pakistan</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item disabled" href="#">CHOOSE REGION</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Azad
+              Kashmir,Pakistan</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Balochistan,Pakistan</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Islamabad Capital
+              Territory,Pakistan</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Khyber
+              Pakhtunkhwa,Pakistan</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Northern
+              Areas,Pakistan</a></li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Punjab,Pakistan</a>
+          </li>
+          <li><img src="images/icon.png" alt="icon" height="25px"><a class="dropdown-item"
+              href="#">Sindh,Pakistan</a>
+          </li>
+        </ul>
+      </div>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Find Cars , Mobile phones and more...">
+        <a><img src="images/search icon.png" alt="icon" style="width: 70px;" class="input-group-text"></a>
+      </div>
+      <div class="buttons">
+        <button class="btn login-btn">Login</button>
+        <button class="btn sell-btn"><img src="images/plus.png" alt="plus-icon" style="width: 20px;">SELL</button>
+      </div>
+    </div>
+    <hr />
+    <div class="section-one">
+      <div class="dropdown categories-dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          ALL CATEGORIES
+        </button>
+        </div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li class="d-inline"><a class="link" href="#">Mobile Phones</a></li>
+          <li class="d-inline"><a class="link" href="#">Cars</a></li>
+          <li class="d-inline"><a class="link" href="#">Motorcycles</a></li>
+          <li class="d-inline"><a class="link" href="#">Houses</a></li>
+          <li class="d-inline"><a class="link" href="#">Tablets</a></li>
+          <li class="d-inline"><a class="link" href="#">Land & Plots</a></li>
+          <li class="d-inline"><a class="link" href="#">Jobs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="img">
+      <img src="images/adds.jpeg" alt="">
+    </div>
+  </div>
+  <div>
+    <h3 class="ms-4 ps-2 mt-5" style="font-size: 23px; font-weight: bold;">All categories</h3>
+    <div class="categories ">
+      <a><img src="images/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png" alt="">
+        <h6>Mobiles</h6>
+      </a>
+      <a><img src="images/vehicles.29fb808d5118f0db56f68a39ce5392e2.png" alt="">
+        <h6>Vehicles</h6>
+      </a>
+      <a><img src="images/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" alt="">
+        <h6>Propety for sale</h6>
+      </a>
+      <a><img src="images/property-for-rent.8436595fbaa90d47f0178006f57090a8.png" alt="">
+        <h6>Property for Rent</h6>
+      </a>
+      <a><img src="images/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" alt="">
+        <h6>Electronics & Home Appliances</h6>
+      </a>
+      <a><img src="images/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png" alt="">
+        <h6>Bike</h6>
+      </a>
+      <a><img src="images/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png" alt="">
+        <h6>Business, Industrial & Agriculture</h6>
+      </a>
+      <a><img src="images/services.dc6aef196c0403dc61b0ee813f66fa5b.png" alt="">
+        <h6>Services</h6>
+      </a>
+      <a><img src="images/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" alt="">
+        <h6>Jobs</h6>
+      </a>
+      <a><img src="images/animals.62d396e85f7523dbc8ff23889fdd5c31.png" alt="">
+        <h6>Animals</h6>
+      </a>
+      <a><img src="images/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" alt="">
+        <h6>Furniture & Home Decor</h6>
+      </a>
+      <a><img src="images/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" alt="">
+        <h6>Fashion & Beauty</h6>
+      </a>
+      <a><img src="images/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png" alt="">
+        <h6>Books, Sports & Hobbies</h6>
+      </a>
+      <a><img src="images/kids.cd8d8864804f1c35dd6a7df68268a48d.png" alt="">
+        <h6>Kids</h6>
+      </a>
+    </div>
+  </div>
+  <div class="mobile-card" id="mobile-card">
+    <div class="card-information">
+      <h4>Mobile Phones</h4>
+      <button class="viewmore-button">View more</button>
+    </div>
+    <div class=" cards-section mx-4 ms-4 px-2 row pt-2 ">
+      <div class="card mx-3" style="width: 18rem; height: 26rem;">
+        <img src="images/m1.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 34,500</h5>
+          <p class="card-text">Samsung Galaxy Note 10 plus 5G Approved</p>
+          <p>Sialkot,Punjab</p>
+          <p>4 days ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 26rem;">
+        <img src="images/m2.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 5,800</h5>
+          <p class="card-text">Tecno Spark 20 Pro Plus (8,256GB) available on Easy Installments Plan </p>
+          <p>Gulberg 2, Lahore</p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 26rem;">
+        <img src="images/m3.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 19,500</h5>
+          <p class="card-text">Oppo F11 (8GB-256GB) PTA approved big offer</p>
+          <p>Satellite Town, Rawalpindi</p>
+          <p>3 weeks ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 26rem;">
+        <img src="images/m4.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 485,000 </h5>
+          <p class="card-text">Iphone 15 Pro Max HK Model pta approved non active</p>
+          <p>Allama Iqbal Town, Lahore</p>
+          <p>1 week ago</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="car-card" id="car-card">
+    <div class="card-information">
+      <h4>Cars</h4>
+      <button class="viewmore-button">View more</button>
+    </div>
+    <div class=" cards-section mx-4 ms-4 px-2 row pt-2 ">
+      <div class="card mx-3" style="width: 18rem; height: 21.5rem;">
+        <img src="images/car.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 2,600,000</h5>
+          <p class="card-text">Honda Civic VTI Oriel Prosmatec 2009</p>
+          <p>Valencia Town, Lahore</p>
+          <p>7 hours ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 21.5rem;">
+        <img src="images/2.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 7,900,000</h5>
+          <p class="card-text">Toyota C-HR G-LED 2017</p>
+          <p>Ghauri Town, Islamabad</p>
+          <p>1 day ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 21.5rem;">
+        <img src="images/c3.webp" class="card-img-top" alt="">" alt="he
+        <div class="card-body">
+          <h5 class="card-title">Rs 1,065,000</h5>
+          <p class="card-text">Suzuki Liana Model 2006 100% original condition</p>
+          <p>Shorkot Road, PirMahal</p>
+          <p>3 weeks ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 21.5rem;">
+        <img src="images/c4.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 900,000</h5>
+          <p class="card-text">Suzuki Cultus VX 2006 Model</p>
+          <p>GT Road, Taxila </p>
+          <p>2 days ago</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="bike-card" id="bike-card">
+    <div class="card-information">
+      <h4>Bikes & Motorcycles</h4>
+      <button class="viewmore-button">View more</button>
+    </div>
+    <div class=" cards-section mx-4 ms-4 px-2 row pt-2 ">
+      <div class="card mx-3" style="width: 18rem; height: 23rem;">
+        <img src="images/b1.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 235,000 </h5>
+          <p class="card-text">Super Power LEO 200CC Heavy Bikes</p>
+          <p>North Nazimabad, Karachi</p>
+          <p>3 weeks ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 23rem;">
+        <img src="images/b2.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 158,000 </h5>
+          <p class="card-text">Honda 125 First owner </p>
+          <p>Cnal Garden, Lahore</p>
+          <p>5 hours ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 23rem;">
+        <img src="images/b3.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 395,000 </h5>
+          <p class="card-text">Hi speed infinity 150</p>
+          <p>Gulberg, Karachi</p>
+          <p>7 hours ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 23rem;">
+        <img src="images/b4.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 280,000 </h5>
+          <p class="card-text">Yamaha YBR 125G 2017</p>
+          <p>Cantt, Rawalpindi</p>
+          <p>9 hours ago</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="job-card" id="job-card">
+    <div class="card-information">
+      <h4>Jobs</h4>
+      <button class="viewmore-button">View more</button>
+    </div>
+    <div class=" cards-section mx-4 ms-4 px-2 row pt-2 ">
+      <div class="card mx-3" style="width: 18rem; height: 20rem;">
+        <img src="images/j1.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 20,000/month</h5>
+          <p class="card-text">Science & English Teachers Required for Middle & Secondary Classes</p>
+          <p>Model City 1, Faisalabad</p>
+          <p>6 days ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 20rem;">
+        <img src="images/j2.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 12,000/month </h5>
+          <p class="card-text">Hiring a Creative Content Writer & Facebook Expert </p>
+          <p>Samnabad, Karachi</p>
+          <p>3 weeks ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 20rem;">
+        <img src="images/j3.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 15,000/month</h5>
+          <p class="card-text">Great Opportunity of Writing Subtitles in Youtube Videos </p>
+          <p>Manzoor Colony, Karachi</p>
+          <p>2 days ago</p>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem; height: 20rem;">
+        <img src="images/j4.webp" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Rs 10,000/month </h5>
+          <p class="card-text">Urgent Requirement for Hand Written Assignments </p>
+          <p>Latif Abad, Hyderabad</p>
+          <p>1 week ago</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="getApp-section hstack gap-5">
+    <div class="trial-section">
+      <img src="images/sponserd.webp" alt="">
+      <div class="trial-information">
+        <h2>TRY THE OLX APP</h2>
+        <p>Buy, sell and find just about anything using the app on your mobile.</p>
+      </div>
+    </div>
+    <div class="vr my-auto"></div>
+    <div class="download-section">
+      <h6>GET YOUR APP TODAY</h6>
+      <div class="download-images">
+        <img src="images/apple.svg" alt="">
+        <img src="images/google.svg" alt="">
+        <img src="images/app.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER START -->
+  <div class="footer"> 
+    <div class="footer-section">
+      <div class="footer-items">
+        <ul>
+          <li class="item-heading">POPULAR CATEGORIES</li>
+          <li><a>Cars</a></li>
+          <li><a>Flats for Rent</a></li>
+          <li><a>Mobile Phones</a></li>
+          <li><a>Jobs</a></li>
+        </ul>
+        <ul>
+          <li class="item-heading">TRENDING SEARCHES</li>
+          <li><a>Bikes</a></li>
+          <li><a>Watches</a></li>
+          <li><a>Books</a></li>
+          <li><a>Dogs</a></li>
+        </ul>
+        <ul>
+          <li class="item-heading">ABOUT US</li>
+          <li><a>About Dubizzle Group</a></li>
+          <li><a>OLX Blog</a></li>
+          <li><a>Contact Us</a></li>
+          <li><a>OLX for Businesses</a></li>
+        </ul>
+        <ul>
+          <li class="item-heading">OLX</li>
+          <li><a>Help</a></li>
+          <li><a>Sitemap</a></li>
+          <li><a>Terms of Use</a></li>
+          <li><a>Privacy Policy</a></li>
+        </ul>
+
+      </div>
+      <div class="followUs-section ">
+        <h6>FOLLOW US</h6>
+        <div class="socialMedia-icons">
+          <img src="images/iconTwitter.svg" alt="">
+          <img src="images/iconInstagram_.svg" alt="">
+          <img src="images/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg" alt="">
+          <img src="images/facebook.svg" alt="">
+        </div>
+        <div class="download-images">
+          <img src="images/apple.svg" alt="">
+          <img src="images/app.svg" alt="">
+          <img src="images/google.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="bottom-section">
+      <p>Free Classifieds In Pakistan . <img src="Assets/copyright-icon.png" alt="copyright-icon"> 2006-2024 OLX</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
